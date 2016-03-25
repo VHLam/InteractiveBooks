@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp" tools:context=".MainActivity"
+    android:background="#ff1b1b1b">
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="6dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Dragon Slave"
+                android:id="@+id/askill1"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill2"
+                android:src="@drawable/lina1"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill3"
+                android:src="@drawable/skill1"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Lina's Ultimate is the most damaging single target nuke in Dota (Lion's Finger of Death is slightly more damaging when both are level 1). It creates a huge, blazing bolt of lightning together with awesome sound effect. Getting a kill with this spell is guaranteed to put a smile on your face, especially if it is Zues or Sniper.\r\nThat being said, repeat after me: Laguna Blade is your least efficient spell. DO NOT use it against an opponent who is low on HP, unless that opponent is otherwise absolutely certain to escape. ABSOLUTELY DO NOT use this spell to steal kills from teammates, especially carries (we hate Zues and Sniper for a reason). Laguna is best used when combo'd with Lina's other spells, either to gank a tricky and/or dangerous opponent like Anti-Mage, or to quickly kill or cripple an important enemy hero in a teamfight. I understand that Crystal Maiden with one segment left in her HP bar is tempting- save it for that Sand King who your teammates all seem to be beating on with an air of desperation (hint: his ulti is up)."
+                android:id="@+id/askill16"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Laguna Blade "
+                android:id="@+id/askill13"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill14"
+                android:src="@drawable/lina4"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill15"
+                android:src="@drawable/skill4"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="As if spamming spells wasn't fun enough, this skill gives you even more reason to do it. Each spell cast provides Lina with a percentage based bonus to attack speed and movement speed. Soul stacks with itself up to three times, and with other items that provide movement speed bonuses. Lina's base damage isn't stellar, but this skill can make her a respectable DPS even between casting spells.\r\nFiery Soul is usually taken later on when Lina's mana pool permits spell spamming. Unfortunately, each instance of Soul lasts only 7 seconds while the cooldown on Slave and Array are 8.5 and 7 seconds, respectively. In other words, Lina will only get maximum benefit from Fiery Soul after using her Ultimate."
+                android:id="@+id/askill12"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Fiery Soul"
+                android:id="@+id/askill9"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill10"
+                android:src="@drawable/lina3"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill11"
+                android:src="@drawable/skill3"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Creates a circular explosion, both stunning and damaging enemies. The stun is arguably the more important, and is always 1.6 seconds regardless of skill level. Array can be quite tricky to land. It has a roughly half second delay between casting and effect, and the area is small enough for targets to dodge the spell. The casting range is also actually slightly shorter than her autoattack range. Though the two spells actually do the same damage, Slave is typically maxed first as it is much easier to land (especially in teamfights).\r\nArray becomes MUCH more powerful when Lina is laning or ganking with a more reliable stunner or disabler. For example, Sand King's burrow strike allows Lina to land Array easily. Remember that stuns do NOT stack, so if you are already in cast range when the first stun lands, toss out an autoattack (or at least wait so your partner can get a couple more in) before casting Array. Other slows or disables such as Venomancer's Gale or Rhasta's Hex aren't quite as nice but still make it a lot easier. When laning with a strong disabler, it may make sense to max Array before Slave."
+                android:id="@+id/askill4"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Light Strike Array"
+                android:id="@+id/askill5"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill6"
+                android:src="@drawable/lina2"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill7"
+                android:src="@drawable/skill2"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Dragon Slave is useful early as both a last hitting and harassment tool. For example, autoattack the ranged creep once or twice, and either switch to a melee creep or simply wait for your friendly creeps to get one to sufficiently low HP, then use Slave. This can generate 2-3 last hits and, with practice, also damage opposing heroes. Be careful doing this, as it will both push the creep wave closer to the enemy's tower (putting you at higher risk of a gank). If you're duo or trilaning, this can also take farm from your lane mates, who may very well need it more than you do. If on a side lane, stacking and pulling (see several guides on this site) can help with both issues and is highly recommended.\r\nMid to Late Game, Slave can also be used as a 'poke', i.e. to inflict initial damage on one or more heroes before a teamfight, due to its excellent range (note that Slave does NOT provide vision). Be VERY careful doing this, as you are extremely fragile. As a general rule, Lina should NEVER be in front of her teammates. Particularly late game, you are hurting your team severely if you get killed doing this before a big fight."
+                android:id="@+id/askill8"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+    </ViewFlipper>
+
+</LinearLayout>

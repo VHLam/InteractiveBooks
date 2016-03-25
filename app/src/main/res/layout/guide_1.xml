@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp" tools:context=".MainActivity"
+    android:background="#ff1b1b1b">
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="6dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="How to lane mid as DPS Lina"
+                android:id="@+id/ga1"
+                android:textColor="#ffffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="You want to get your bottle up as quickly as you can, feel free to last hit with Dragon Slave, especially if you can hit the enemy mid with it as well. Before the rune spawns every 2 minutes you should use Dragon Slave to kill the enemy creeps quickly to that you won't miss out on experience when you get the rune. Other than that you'll just want to get your arcanes up quickly, take a kill opportunity if it comes to you but don't push it too much, when you hit 6 you'll want to try and solo kill the enemy mid, and failing that gank the sidelanes."
+                android:id="@+id/ga2"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Conclusion"
+                android:id="@+id/ga5"
+                android:textColor="#ffffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Lina is a very powerful hero who is capable of having a large impact at all stages of the game, while filling a variety of roles. Her stun, nuke and ult combo can get kills easily and Fiery Soul allows you to capitalize on your early kills and essentially makes attack speed items irrelevant. Your early game mana pool is massive and allows for spamming of your spells, however your HP pool is awful and positioning is paramount to successful Lina play. Lina's massive attack range, while often overlooked can make it much easier to harass enemy heroes and get last hits. Make sure to communicate with your team and try to combo with a hero with a reliable stun. Don't be afraid to mix up the skill and item builds based on the game you're in as they're both very situation dependent. The remaining sections are a basic warding guide for new players and the update log for the guide. If you're not interested in those sections then the actual content ends here."
+                android:id="@+id/ga6"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ganking as Lina"
+                android:id="@+id/ga3"
+                android:textColor="#ffffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="When you're ganking you want either 1) someone else to set up your stun for you, or 2) to stun the enemies from out of their vision. If they see you casting your stun then they can dodge it and you want to leave as little as possible to chance. Once you're stunned the enemy immediately followup with Dragon Slave and your ult to give you maximum Fiery Soul stacks and then proceed to autoattack the enemies down. Be very careful when ganking, if you get caught out of position you will probably die since your HP pool is so small. After a successful gank you'll want to head back to farming/supporting your carry depending on your role. Make sure you're communicating with your team, let them know you're coming and that they should stun first if they can, getting that little bit of talking happening can make the difference between a successful gank and a failure."
+                android:id="@+id/ga4"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+    </ViewFlipper>
+
+</LinearLayout>

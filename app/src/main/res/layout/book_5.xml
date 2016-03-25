@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dota2">
+
+    <Button
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:text="Introduction"
+        android:id="@+id/e1"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:drawable/alert_light_frame"
+        android:layout_marginTop="70dp"
+        android:onClick="Clicke1" />
+
+    <Button
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:text="Skill"
+        android:id="@+id/e2"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:drawable/alert_light_frame"
+        android:layout_marginTop="6dp"
+        android:onClick="Clicke2" />
+
+    <Button
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:text="Item Build"
+        android:id="@+id/e3"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:drawable/alert_light_frame"
+        android:layout_marginTop="6dp"
+        android:onClick="Clicke3" />
+
+    <Button
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:text="Basic Guide"
+        android:id="@+id/e4"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:drawable/alert_light_frame"
+        android:layout_weight="0"
+        android:layout_marginTop="6dp"
+        android:onClick="Clicke4" />
+
+    <Button
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+        android:id="@+id/e5"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:drawable/alert_light_frame"
+        android:layout_marginTop="6dp"
+        android:onClick="Clicke5" />
+
+</LinearLayout>

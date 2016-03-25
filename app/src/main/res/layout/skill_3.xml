@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp" tools:context=".MainActivity"
+    android:background="#ff1b1b1b">
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="6dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Crystal Nova"
+                android:id="@+id/cskill1"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cskill2"
+                android:src="@drawable/rylaiskill1"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cskill3"
+                android:src="@drawable/rylai1"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="A large area around Crystal is afected by explosions that slow the enemy's both movement and attack speed, and that deal lots of damage. Her ultimate turns CM into a dangerous opponent in teamfights: altough she is extremely fragile, she can also deliver a surprisingly huge amount of damage - if she can channel her ultimate properly. Hence the problem: how to manage not being interrupted by all the disablers you surely will be facing. There is no easy way to answer this, but here are some obvious tips that may be useful. Before I would only take this skill at around level 7 or 8 instead of at the possible level 6, because of mana issues, but right now you can simply carry an Enchanted Mango with your and this problem is solved, since you will almost never start the fight straight with your ulti, but it doesn't matter if you're in the middle of it taking damage, Enchanted Mango is instantaneous and doesn't get interrupted."
+                android:id="@+id/cskill16"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Freezing Field"
+                android:id="@+id/cskill13"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cskill14"
+                android:src="@drawable/rylaiskill4"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cskill15"
+                android:src="@drawable/rylai4"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Arcane Aura maxed will make everyone love you, for obvious reasons. I prefer to take it at level 2 and 4 not only because of the advantage it gives to your allies (most heroes will have infinite mana with only this ability and just a Ring of Basilius in their inventory - try Bristleback and Weaver, for instance) but also because it allows you to spam your abilities on every cooldown, and still have enough mana for Freezing Field, if needed. Although you can of course alter the skill build depending on your preferences or what the game is demanding, I've found that taking the aura at level 2 is preferable to almost everything else: if you take it at level 1, even if it doesn't change must, you will be left with no spell at all for that first clash at the runes; if you take it at level 3 or later you will have no mana to use your skills as often as you could. With this skill build I have never needed to buy Clarity for me or my teammates the whole game, which I think is a natural and desirable result considering we are talking about a hero with a passive skill just to boost her mana regen (and also Claritys can easily be interrupted while you're doing your stuff like harassing in lane or simply pulling)."
+                android:id="@+id/cskill12"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Arcane Aura"
+                android:id="@+id/cskill9"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cskill10"
+                android:src="@drawable/rylaiskill3"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cskill11"
+                android:src="@drawable/rylai3"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="For a time, for me Frostbite was the bread and butter of CM. Inspite the fact that it is not a real stun, it basically works as one: it has a mini-stun when casted, followed by an inhibition for the target to move or attack (altough it can cast abilities). Since it has the mini stun, it interrupts channeling; what's more, it reveals invisible enemies for the duration. Even if your target blinks, he will be left some meters away from you, still encased in the ice - happens frequently with Slark and his Pounce (note that some blink abilities are disabled anyway, such as Queen of Pain and Anti-Mage's blink and the blink from Blink Dagger). Frostbite also deals 50 damage every half-second, which is negligible when considering heroes (it only lasts 3 seconds on them, that is, 150 damage), but is essential for your very-quick-no-one-is-looking-nor-needs-this-neutral-creep-iei-more-wards-money farm (it lasts 10 seconds on all creeps).\r\nI take the first point in it because when the game begins, your main role is to help the teammate you're babysitting, either by harrasing enemies (helping him to farm more efficiently), by securing kills or by making sure he doesn't die. Frostbite is all that: if your pair is feeling confident to go on someone, it works like a stun; if you are afraid something bad may happen, you can keep it for an emergency run. Just be sure to not waste it on those first minutes of the game just for the harrasing, since you will not be able to spam it just yet (you have just one Frostbite until some time is passed or gain enough XP for level 2). However, if you go for that first Bounty Rune, it will help you gain it, deny it or just live to fight another day."
+                android:id="@+id/cskill4"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Frostbite"
+                android:id="@+id/cskill5"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cskill6"
+                android:src="@drawable/rylaiskill2"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cskill7"
+                android:src="@drawable/rylai2"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="This is an AOE nuke that can be used to harass your opponent's carry or simply help pushing a lane. The 15s cooldown is neither short or long for a nuke so use it wisely to control your mana pool. The nice thing about this skill is that it can hit an opponent at a maximum of 1100 range (700 cast range + 400 aoe) and that it provides vision to check rosh pit or simply searching for a juking opponent. You can max this first to maximise the damage output when you go around ganking.\r\nWhen using this skill keep in mind that you will cast based off the center, so (just to throw in random numbers) if it has a cast range of 500, but an AoE of 300, that means that you really have a 650 cast range. This is good to keep in mind if you are chasing a fleeing enemy. You can also cast it from high ground/cliff areas with ease. This skill should be used as a follow up to frostbite or as an initiation. I would use it after frostbite in lane because the slow has a long duration, and I don't want to stack a disable on the slow duration, so I use the short duration Frostbite, then Crystal Nova. In a few cases(ivis heroes really) I will use this to scare them, then use frostbite so they go invis but I still know where they are, this also makes for a nice set up into your ult if you catch one person."
+                android:id="@+id/cskill8"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+    </ViewFlipper>
+
+</LinearLayout>

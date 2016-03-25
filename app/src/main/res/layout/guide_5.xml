@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp" tools:context=".MainActivity"
+    android:background="#ff1b1b1b">
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="6dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The Laner/Jungler"
+                android:id="@+id/ga1"
+                android:textColor="#ffffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="This is my most common BS build of choice, it is very easy to do i recommend it to all new to BS players. I choose this build when my team is relying on me to not only gank but carry as well. Starting with the normal BS start core, you can go to either lane with this build because you will be leaving it soon anyways. Make sure you lane with someone who can handle laning by themselves such as a ranged hero or a good lane pusher such as dark seer, or KOTL. Start out getting last hits until you can buy both brown boots and poor man's shield.Usually i achieve this by level 3 but if by level 4 you don't have both these items you should probably leave the lane anyways because the other side has a better team comp. Begin by fighting easy/middle jungle camps until level 6. At this point you should let your teammates know that your gonna start ganking and ping out your targets. Get 2-3 ganks and return to the forest. By about level 8 or 9 you should have a yasha and can take any camps needed. At this point it is player preference as to what you would like to do next."
+                android:id="@+id/ga2"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Summary"
+                android:id="@+id/ga5"
+                android:textColor="#ffffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="In conclusion I have shown you my builds and my reasoning for each type. Also keep in mind that this is my first guide and would be open to any and all comments as they roll in. Whether you like it or not please vote for it and leave a comment on the different aspects of my favorite Hero. If you would like me to go further in depth about my choices then leave a comment or drop me a private message on this account and I would be glad to discuss anything. I will also be glad to give credit where it is due if anyone offers me information that adequately changes my builds for the better."
+                android:id="@+id/ga6"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="The Pure Ganker"
+                android:id="@+id/ga3"
+                android:textColor="#ffffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="For the pure ganker you are going to need to consider a few things. First off is how much you really trust the other players on your team to get fed and carry you for the rest of the game. The problem with this build is that it falls off later in the game when opposing players begin to grab more and more hp as well as more items. The next thing to consider is how well are you at grabbing runes and playing mid. This build is designed entirely to be a mid lane build where at level 6 you begin and don't stop moving from one side of the map to the other. Finally you need to consider the other team, if they have lots of stun or lots of durability then this build is useless.\r\nClaim mid-lane as soon as you can and watch for the first rune. Unless it is double damage just deny it and move on. At this point if you are facing a ranged nuking hero i suggest getting blood rage ASAP. This will not only keep them from casting spells but also harass them with DOT. Get last hits when you can and if you are getting extremely fed from creep then grab a quick force staff. I can usually grab this by level 5 if the other mid lane cant deny me or harass me. Otherwise just start building your dagon lvl 1. At 6 grab the closest rune and start on that lane, ping your target for your teammates and get them to initiate and force the hero to begin backing."
+                android:id="@+id/ga4"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+    </ViewFlipper>
+
+</LinearLayout>

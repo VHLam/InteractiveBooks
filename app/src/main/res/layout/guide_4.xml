@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp" tools:context=".MainActivity"
+    android:background="#ff1b1b1b">
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="6dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="About Traxex"
+                android:id="@+id/ga1"
+                android:textColor="#ffffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Personally I find Drow Ranger is a very reliable carry and even if she gets out farmed by a teammate, then taking the role of your team's carry she can still support him with her Frost Arrows and Silence. If they are ranged, even better, you can aid them with Precision Aura on top of that. Everything about her scales throughout the game, so that's also fantastic and just all around, amazing. Drow Ranger is also able to Lane or Solo without any problems in either, like a few other heroes, but can do both well and loses nothing by going to either.\r\nNow the only thing I am sad about is that she cannot use Orb Effects in combination with her Frost Arrows. How I would love to get a Desolator or Helm of the Dominator on her without worrying about switching between orbs constantly. You technically could if you wanted, though you are spending money in a direction you do not need to most of the time and it would be more beneficial to throw that money elsewhere."
+                android:id="@+id/ga2"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Middle Game"
+                android:id="@+id/ga5"
+                android:textColor="#ffffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="It can be tough to find a good median between Farming and Ganking, but if you can find the right balance in each game, your teammates will love you. While she is a good ganker, she is also a great carry, so you have to try and aim for both during mid game. If you see a lane that looks like its going to get pushed soon, buy a teleport or make your way there and gank them. Don't force the gank, and by force I mean waiting for the right moment or jumping the gun. If it doesn't look like a good gank or there is too many mia, don't do it. Return to farming. Having wards also makes this job much easier, you can see an enemy ganker moving on your teammates, teleport there and countergank with Silence/ Frost Arrows. You should easily be able to kill one or two enemies from that lane right there."
+                android:id="@+id/ga6"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Early Game"
+                android:id="@+id/ga3"
+                android:textColor="#ffffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="I prefer to take Drow Ranger into a side lane with an ally, as the ability to farm is increased and if a ganker comes to your lane, you are guaranteed a kill with two ganker-style characters in the same fight.\r\nFirst wave spawns, your main role is to last hit enemy creeps and harass opponents that get near yours. It is best to have a lane partner that focuses on lane management like Omniknight or Necrolyte so you don't have to worry about denies, or getting hit by the creeps now and again. Focus on completing Power Treads and don't worry about pushing, just pull creeps if you can and if not, keep control of the shop and river. Lane Management is key with an early side lane Drow Ranger it's just annoying to deal with it yourself as the harassment you can offer is more."
+                android:id="@+id/ga4"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+    </ViewFlipper>
+
+</LinearLayout>

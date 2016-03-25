@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp" tools:context=".MainActivity"
+    android:background="#ff1b1b1b">
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="6dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Lina the Slayer"
+                android:id="@+id/textView2"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:typeface="serif"
+                android:textColor="#ffc6c9c9"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/image1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/a"
+                android:background="#00ffffff"
+                android:layout_gravity="bottom|center_horizontal"
+                android:onClick="Click1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Strygwyr the Bloodseeker"
+                android:id="@+id/textView1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:typeface="serif"
+                android:textColor="#ffc6c9c9"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/image2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/e"
+                android:background="#00ffffff"
+                android:layout_gravity="bottom|center_horizontal"
+                android:onClick="Click5"/>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Traxex the Drow Ranger"
+                android:id="@+id/textView3"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:typeface="serif"
+                android:textColor="#ffc6c9c9"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/image3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/d"
+                android:background="#00ffffff"
+                android:layout_gravity="bottom|center_horizontal"
+                android:onClick="Click4"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Rylai the Crystal Maiden"
+                android:id="@+id/textView4"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:typeface="serif"
+                android:textColor="#ffc6c9c9"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/image4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/c"
+                android:background="#00ffffff"
+                android:layout_gravity="bottom|center_horizontal"
+                android:onClick="Click3"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Lyralei the Windranger"
+                android:id="@+id/textView5"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:typeface="serif"
+                android:textColor="#ffc6c9c9"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/image5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:src="@drawable/b"
+                android:background="#00ffffff"
+                android:layout_gravity="bottom|center_horizontal"
+                android:onClick="Click2"/>
+
+        </LinearLayout>
+
+    </ViewFlipper>
+
+</LinearLayout>

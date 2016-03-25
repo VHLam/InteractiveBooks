@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp" tools:context=".MainActivity"
+    android:background="#ff1b1b1b">
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="6dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Laning Phase and Role in Game"
+                android:id="@+id/ga1"
+                android:textColor="#ffffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Lyralei can fill any position (except the jungler ofc) in the game, due to this, you are able to waltz into any lane and do fine. Of course, she does excel in some roles, the most obvious would be the offlaner role and mid laner.\r\n(But if you aren't a core hero, and if there's already a carry please don't try to be one too, unless the situation calls for it and you can farm for damage items quickly)."
+                android:id="@+id/ga2"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Conclusion"
+                android:id="@+id/ga5"
+                android:textColor="#ffffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Windranger is a very strong all round hero, able to fill a number of key roles in the team. This makes her an excellent pick when drafting, as she gives so little away to the opposition - they won't know whether you're going offlane, mid or support, and you can always switch this up later on if they counter one role strongly. Although commonly played as an offlaner, she's one of the strongest heroes against physical damage, and is much harder to pick off than most others if played as support. Her item and skill builds are extremely flexible, and you can easily make her into a disabler, nuker, utility, pusher or almost-carry as required. She may not be the single best at any of these, but she's pretty good at all of them."
+                android:id="@+id/ga6"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="OFFLANE, in general"
+                android:id="@+id/ga3"
+                android:textColor="#ffffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Keep your Lvl 1 skillpoint until you need it, and skill it according to the situation. Block your creeps, and try to stay close to your tower.
+If possible, burn as much regen from the enemy carries or support to make your trades worth while, as once the carry is out of regen, he/she will need to go back to base and will have to miss out on gold and experience. (1 tango charge for the opposing Spectre's salve is worth it, but that's the best possible situation). Do not get greedy. Give up last hits if you have to. The main goal of the offlane is to obtain as much experience as possible without dying/feeding gold to the enemy carry."
+                android:id="@+id/ga4"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+    </ViewFlipper>
+
+</LinearLayout>

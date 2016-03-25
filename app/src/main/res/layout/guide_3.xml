@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp" tools:context=".MainActivity"
+    android:background="#ff1b1b1b">
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="6dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Early game"
+                android:id="@+id/ga1"
+                android:textColor="#ffffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="As a hard support, you have to buy one of these first 2, or both: Animal Courier, Observer Ward. It's better if another support help you buy one of these so that you have more money to buy essential items though. Sometimes, you might want to buy Sentry Ward too, to deward your opponent's attempt to block your camp for pulling. Then buy a Tango and Healing Salve to keep you healthy in lane/help your carry heal up, and use the leftover money to buy some Iron Branch, stats is never bad. If you wanna go straight roaming and ganking at level 1, you can skip a Healing Salve to get more stats item. You should place 1 ward at the rune spot to help your mid control rune, then another one at enemy's jungle so that your offlane wont be ganked easily, then if you have Sentry Ward you can either try to deward your opponent's wards or just block their camp so that they cannot pull. If you have to babysit your carry, you have to know how to pull and stack camp, you can find out here:"
+                android:id="@+id/ga2"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Late game and extension items"
+                android:id="@+id/ga5"
+                android:textColor="#ffffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Now you should have Tranquil Boots and Blink Dagger, and can start working on your next items depend on the situation your team is in. Mekansm pick this up if nobody in your team has one or is planning to build one. Crystal Maiden is not a good Mekansm carrier though because of her super squishy nature, but it's still good to have one regardless. Force Staff This is an alternative if you can't farm up a Blink Dagger, some times you need both to be more mobile and Force Staff can save your team mates too. Ghost Scepter is a very nice pick up as it gives you some stats, and it's good against right click opponents. Ghost Scepter and Freezing Field is a nice combo if your opponents are dominantly right click heroes.Shiva's Guard: 15 nifty armor so that you become tankier, 30 int is great for any int heroes and its active is good against right click heroes, a very nice item but however a bit expensive."
+                android:id="@+id/ga6"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Mid game"
+                android:id="@+id/ga3"
+                android:textColor="#ffffffff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Now the first major item you should aim to get is a Blink Dagger. This will make you a LOT more mobile and can make you a fearsome initiator as it solves the short range problem of your Frostbite. Moreover, with the buff that now you can blink to dodge projectile, this can save you from many projectiles spells like Assassinate, Storm Hammer or Heat Seeking Missile. You also can blink into the trees or cliff and use Freezing Field. To sum up, this is the best item you can get for Crystal Maiden, dont hesitate to get it if you can.\r\nContinue ganking as much as possible to make space for your carry to farm up his items. If you're near your core items and want some safer farms, you can go jungle and use Frostbite to farm. Dont spend too much time here though as your team needs you to gank."
+                android:id="@+id/ga4"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+    </ViewFlipper>
+
+</LinearLayout>

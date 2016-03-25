@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp" tools:context=".MainActivity"
+    android:background="#ff1b1b1b">
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="6dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Frost Arrows"
+                android:id="@+id/askill1"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill2"
+                android:src="@drawable/drowskill1"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill3"
+                android:src="@drawable/drow1"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="A great ultimate, gives you 40/60/80 (not 20/30/40 as Dotafire says) agility as long as no enemy hero is too close to you. Thus greatly boosting your damage, attack speed and armor. In addition, this will increase the damage bonus other ranged heroes get through your Trueshot Aura. However, since 6.77 the bonus is totally cancelled when an enemy hero comes within a 400 (somewhat larger range since v 6.79) range. Before that it was only halved, so Drow has become more vulnerable than she was. Losing all this extra agility means your damage output is way lower than at a distance and your considerable bonus armor is cancelled. And in a teamfight it means that your ranged buddies lose a lot of their extra damage. So make sure you use frost arrows and silence to prevent your enemies from getting up that close.\r\nLosing 40/60/80 agility does however have a slight advantage, because it grants the observant Drow Ranger some stealth detection. This is why I listed Dust of Appearance in core items: you are the one who can detect stealth heroes. Whenever you see your agility dropping real fast, pop a Dust of Appearance and hope you'll be quick enough to cast frost arrows and silence on the pesky invisible hero that is trying to get you."
+                android:id="@+id/askill16"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Marksmanship"
+                android:id="@+id/askill13"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill14"
+                android:src="@drawable/drowskill4"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill15"
+                android:src="@drawable/drow4"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Great skill on Drow, especially later in the game. Gives a global damage bonus to all ranged heroes based on your agility. I usually put one point in it at level 2. Although 1 level in Frost Arrows won't have too much effect, it may help you getting first blood. One early level in this skill gives you and other ranged heroes about 4 or 5 damage early on, which helps a bit to last hit/deny. If you don't want to try to get first blood, you may switch these around and get Precision Aura first.\r\nYou max it out in levels 8-10. You don't need more points in it early, because the first level gives the biggest bonus (18%) while extra levels don't add as much (6% per level). Besides, the bonus is only really starting to count after at least reaching level 6 and you need level 7 to max your frost arrows. But after that, max this skill out. This aura has been buffed in the last update. Before it gave 16/20/24/28% damage bonus, now this is 18/24/30/36%! First is always affected creeps in an area around you, now that has been disabled, but you can manually cast it to affect creeps globally for 30 seconds (with 120 seconds cooldown). This gives a bit more control over this ability, won't unwantedly affect your lane control and the increased percentage just makes this skill so much better. So unless you're up against strong nukers and you need the extra levels of Silence, you should max this out by level 10."
+                android:id="@+id/askill12"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Precision Aura"
+                android:id="@+id/askill9"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill10"
+                android:src="@drawable/drowskill3"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill11"
+                android:src="@drawable/drow3"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="A great skill, makes Drow effective against heavy spellcasters or blinkers. Silence can make all the difference in a team fight. Up to 6 seconds of silence gives you all the time in the world to make sure Anti-Mage and Queen of Pain won't be able to escape from you. It will make sure you won't have to eat heavy nukes when ganking an enemy. I choose 1 point in Silence early, but max it out last, because often 3 seconds of silence will be more than enough and your other abilities are just asking to be chosen first. There are exceptions however. If you're up against a lot of heavy nukers, you may want to max this just after Frost Arrows, as is described in the second build. Cast this skill at the start of every teamfight."
+                android:id="@+id/askill4"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Gust"
+                android:id="@+id/askill5"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill6"
+                android:src="@drawable/drowskill2"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill7"
+                android:src="@drawable/drow2"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="This is your bread and butter, it's what makes you Drow. Great skill for ganking and even escaping. I max this first. The first point gives you a pathetic 11% slow. But when trying for first blood together with a friend, it may just be enough, so I start with it anyway in the main build. Would you prefer to play more passive and first blood is not on your bucket list, you might as well get Precision Aura first and start leveling Frost Arrows from level 2 to 7. When you skill this, the slow greatly improves (24%, 37% and even an astonishing 60% at level 4). At level 4 this is a great skill. It helps you to gank effectively, since most enemies won't be able to get away from your slow. Also is one of your best escape mechanisms. As you don't want people to get close and mess with your ult, this will help you to slow enemies who are trying to get you. I can still remember a game where I was playing bottom lane as Dire. The enemy Ursa had just been soloing Roshan and came up to gank me. With my frost arrows, I made sure he couldn't move a muscle and killed him twice before he even got near me.\r\nIt won't safe you from large ganks when you're on your own early on, you can't slow them all at once. Nor should you put them on autocast. It will ruin your lifesteal possibilities and it will eat your mana way too fast. Just keep casting them on enemy heroes when attacking then as it will make up for great harass or ensure you get a kill."
+                android:id="@+id/askill8"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+    </ViewFlipper>
+
+</LinearLayout>

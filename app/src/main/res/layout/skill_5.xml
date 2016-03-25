@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp" tools:context=".MainActivity"
+    android:background="#ff1b1b1b">
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="6dip" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Bloodrage"
+                android:id="@+id/askill1"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill2"
+                android:src="@drawable/bloodskill1"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill3"
+                android:src="@drawable/blood1"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Your ultimate is greatly feared by noobs everywhere...and generally mocked by more experienced players. After a recent buff, it now inflicts HP Removal damage - meaning that magic immunity/resistance offers no protection against it's effects.\r\nIt deals an initial burst of damage, and then inflicts considerable further damage every time the target moves during the duration. There is an exception to this - transport spells and items that allow you to move more than 1300 units in 0.25 seconds are not effected.\r\nAny player worth their salt won't move during Rupture if they can possibly avoid it - Force Staff or abilities like Blazing Lasso can be fatal here. Combined with your Blood Rage you can also lock down transport abilities and Blink Dagger too (due to the constant damage). A silenced, immobile enemy should be easy meat right?\r\nWell, theoretically. First of all, you've got to be able to do enough damage to actually kill them before the effects run out. Secondly, your most dreaded opponent, the nemesis who leaves you stood howling in frustration...the Town Portal Scroll."
+                android:id="@+id/askill16"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Rupture"
+                android:id="@+id/askill13"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill14"
+                android:src="@drawable/bloodskill4"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill15"
+                android:src="@drawable/blood4"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="This can actually be one of the main reasons to pick Bloodseeker, and is a great team spell when your side is loaded up with gankers and global nukers. With a global range any enemy hero on the map with less than 50% health will show up on both the minimap and in the main screen. If their health drops below 25% you also gain true sight of them, showing up even invisible heroes.\r\nThis makes it very easy to keep an eye on enemies, and inexperienced ones may make the mistake of letting their health drop too far. Global nukers are great here - an Ice Blast or even just a Rocket Flare might be enough to setup or secure a kill. Retreating heroes are especially vulnerable to this.\r\nFor every enemy hero below 50% health you also gain a stack of extra movement speed and damage. It also removes the movement speed cap, allowing you to move at freakishly fast speeds when multiple enemies need hunting down. This skill makes you almost impossible to outrun, even with a good headstart - their only real chance is transport abilities and items."
+                android:id="@+id/askill12"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Thirst"
+                android:id="@+id/askill9"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill10"
+                android:src="@drawable/bloodskill3"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill11"
+                android:src="@drawable/blood3"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="On the plus side, you can absolutely dominate a lane where your opponent(s) can't out hit or kill you. Even if they're landing a lot of light harassment it really does very little if you can constantly be healing from killing creeps. Even at level 1, killing a melee creep will heal you for 55 health, 82.5 at level 2, etc. Please note, YOU REGEN FROM DENYING, so it's really important to kill EVERYTHING in the lane if you possibly can. As you can imagine, against some heroes this makes you incredibly hard to play against - you out hit them on every single creep, and absorb every bit of farm and experience in the lane. It also explains your starting items - the Stout Shield/ Quelling Blade combo is to minimise harassment and maximise your last hitting ability. Moving quickly up to Poor Man's Shield enhances both further."
+                android:id="@+id/askill4"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Blood Rite"
+                android:id="@+id/askill5"
+                android:textColor="#ffffffff"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill6"
+                android:src="@drawable/bloodskill2"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/askill7"
+                android:src="@drawable/blood2"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Bloodrage is an unusual spell - a damaging Silence that also acts as a damage buff for the target. This means that it has multiple uses, and also changes in usage as the game progresses. Early on, it's actually pretty damaging - 80 mana for 120 damage at level 1 is pretty nice, especially since it also stops the target using any abilities. Generally the 30% extra damage you give them from this won't amount to anything much at this point in the game. Obviously the other big use of this is when ganking - a 6 second Silence is pretty strong and prevents the target using their stuns, nukes or escapes. This is what makes you an effective counter to escape reliant heroes like Anti-Mage and Weaver. We tend to leave this skill at level 1 and max it last - purely because the slight extra duration isn't worth the extra damage we start giving people. This leads on to the second use of this ability..."
+                android:id="@+id/askill8"
+                android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+    </ViewFlipper>
+
+</LinearLayout>
